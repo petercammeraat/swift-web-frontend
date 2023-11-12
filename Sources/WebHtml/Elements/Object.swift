@@ -1,7 +1,7 @@
 //
 //  Object.swift
 //  WebHtml
-//  The 3-Clause BSD License
+//  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
 /// The `<object>` HTML element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.

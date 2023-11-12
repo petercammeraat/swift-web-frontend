@@ -1,7 +1,7 @@
 //
 //  Base.swift
 //  WebHtml
-//  The 3-Clause BSD License
+//  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
 /// The `<base>` HTML element specifies the base URL to use for all relative URLs in a document. There can be only one `<base>` element in a document.

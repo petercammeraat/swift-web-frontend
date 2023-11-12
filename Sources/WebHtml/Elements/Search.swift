@@ -1,7 +1,7 @@
 //
 //  Search.swift
 //  WebHtml
-//  The 3-Clause BSD License
+//  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
 /// The `<search>` HTML element is a container representing the parts of the document or application with form controls or other content related to performing a search or filtering operation.

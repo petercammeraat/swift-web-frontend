@@ -1,7 +1,7 @@
 //
 //  Abbr.swift
 //  WebHtml
-//  The 3-Clause BSD License
+//  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
 /// The `<abbr>` HTML element represents an abbreviation or acronym. When including an abbreviation or acronym, provide a full expansion of the term in plain text on first use, along with the `<abbr>` to mark up the abbreviation. This informs the user what the abbreviation or acronym means.

@@ -1,7 +1,7 @@
 //
 //  Td.swift
 //  WebHtml
-//  The 3-Clause BSD License
+//  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
 /// The `<td>` HTML element defines a cell of a table that contains data. It participates in the table model.

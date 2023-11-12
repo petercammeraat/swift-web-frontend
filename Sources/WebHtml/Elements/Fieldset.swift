@@ -1,7 +1,7 @@
 //
 //  Fieldset.swift
 //  WebHtml
-//  The 3-Clause BSD License
+//  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
 /// The `<fieldset>` HTML element is used to group several controls as well as labels (`<label>`) within a web form.

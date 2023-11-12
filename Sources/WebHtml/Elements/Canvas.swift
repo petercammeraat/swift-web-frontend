@@ -1,7 +1,7 @@
 //
 //  Canvas.swift
 //  WebHtml
-//  The 3-Clause BSD License
+//  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
 /// Use the HTML `<canvas>` element with either the canvas scripting API or the WebGL API to draw graphics and animations.

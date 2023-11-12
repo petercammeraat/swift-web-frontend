@@ -1,7 +1,7 @@
 //
 //  Video.swift
 //  WebHtml
-//  The 3-Clause BSD License
+//  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
 /// The `<video>` HTML element embeds a media player which supports video playback into the document.

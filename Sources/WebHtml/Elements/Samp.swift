@@ -1,7 +1,7 @@
 //
 //  Samp.swift
 //  WebHtml
-//  The 3-Clause BSD License
+//  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
 /// The `<samp>` HTML element is used to enclose inline text which represents sample (or quoted) output from a computer program.

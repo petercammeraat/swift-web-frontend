@@ -1,7 +1,7 @@
 //
 //  Thead.swift
 //  WebHtml
-//  The 3-Clause BSD License
+//  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
 /// The `<thead>` HTML element defines a set of rows defining the head of the columns of the table.

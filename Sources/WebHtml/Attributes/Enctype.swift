@@ -1,7 +1,7 @@
 //
 //  Enctype.swift
 //  WebHtml
-//  The 3-Clause BSD License
+//  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 //
 

@@ -1,7 +1,7 @@
 //
 //  Track.swift
 //  WebHtml
-//  The 3-Clause BSD License
+//  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
 /// The `<track>` HTML element is used as a child of the media elements, `<audio>` and `<video>`.

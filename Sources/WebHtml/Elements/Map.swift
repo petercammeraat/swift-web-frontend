@@ -1,7 +1,7 @@
 //
 //  Map.swift
 //  WebHtml
-//  The 3-Clause BSD License
+//  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
 /// The `<map>` HTML element is used with `<area>` elements to define an image map (a clickable link area).

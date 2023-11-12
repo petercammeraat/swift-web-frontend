@@ -1,7 +1,7 @@
 //
 //  Label.swift
 //  WebHtml
-//  The 3-Clause BSD License
+//  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
 /// The `<label>` HTML element represents a caption for an item in a user interface.

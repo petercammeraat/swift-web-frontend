@@ -1,7 +1,7 @@
 //
 //  Q.swift
 //  WebHtml
-//  The 3-Clause BSD License
+//  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
 /// The `<q>` HTML element indicates that the enclosed text is a short inline quotation.

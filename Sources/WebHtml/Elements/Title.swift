@@ -1,7 +1,7 @@
 //
 //  Title.swift
 //  WebHtml
-//  The 3-Clause BSD License
+//  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
 /// The `<title>` HTML element defines the document's title that is shown in a browser's title bar or a page's tab.

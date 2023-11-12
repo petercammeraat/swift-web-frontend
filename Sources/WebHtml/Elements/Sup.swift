@@ -1,7 +1,7 @@
 //
 //  Sup.swift
 //  WebHtml
-//  The 3-Clause BSD License
+//  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
 /// The `<sup>` HTML element specifies inline text which is to be displayed as superscript for solely typographical reasons.

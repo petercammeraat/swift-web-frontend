@@ -1,7 +1,7 @@
 //
 //  Meter.swift
 //  WebHtml
-//  The 3-Clause BSD License
+//  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
 /// The `<meter>` HTML element represents either a scalar value within a known range or a fractional value.

@@ -1,7 +1,7 @@
 //
 //  Progress.swift
 //  WebHtml
-//  The 3-Clause BSD License
+//  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
 /// The `<progress>` HTML element displays an indicator showing the completion progress of a task, typically displayed as a progress bar.

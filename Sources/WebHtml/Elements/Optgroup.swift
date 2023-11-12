@@ -1,7 +1,7 @@
 //
 //  Optgroup.swift
 //  WebHtml
-//  The 3-Clause BSD License
+//  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
 /// The `<optgroup>` HTML element creates a grouping of options within a `<select>` element.

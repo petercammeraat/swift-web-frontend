@@ -1,7 +1,7 @@
 //
 //  Iframe.swift
 //  WebHtml
-//  The 3-Clause BSD License
+//  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
 /// The `<iframe>` HTML element represents a nested browsing context, embedding another HTML page into the current one.

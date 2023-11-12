@@ -1,7 +1,7 @@
 //
 //  Strong.swift
 //  WebHtml
-//  The 3-Clause BSD License
+//  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
 /// The `<strong>` HTML element indicates that its contents have strong importance, seriousness, or urgency.

@@ -1,7 +1,7 @@
 //
 //  Output.swift
 //  WebHtml
-//  The 3-Clause BSD License
+//  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
 /// The `<output>` HTML element is a container element into which a site or app can inject the results of a calculation or the outcome of a user action.

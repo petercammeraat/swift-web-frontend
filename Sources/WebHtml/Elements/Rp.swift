@@ -1,7 +1,7 @@
 //
 //  Rp.swift
 //  WebHtml
-//  The 3-Clause BSD License
+//  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
 /// The `<rp>` HTML element is used to provide fall-back parentheses for browsers that do not support display of ruby annotations using the `<ruby>` element.

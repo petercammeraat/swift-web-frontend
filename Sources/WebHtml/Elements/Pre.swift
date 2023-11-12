@@ -1,7 +1,7 @@
 //
 //  Pre.swift
 //  WebHtml
-//  The 3-Clause BSD License
+//  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
 /// The `<pre>` HTML element represents preformatted text which is to be presented exactly as written in the HTML file.

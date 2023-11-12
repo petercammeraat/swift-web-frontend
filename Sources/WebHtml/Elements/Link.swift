@@ -1,7 +1,7 @@
 //
 //  Link.swift
 //  WebHtml
-//  The 3-Clause BSD License
+//  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
 /// The `<link>` HTML element specifies relationships between the current document and an external resource.

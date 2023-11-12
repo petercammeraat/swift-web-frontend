@@ -1,7 +1,7 @@
 //
 //  Head.swift
 //  WebHtml
-//  The 3-Clause BSD License
+//  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
 /// The `<head>` HTML element contains machine-readable information (metadata) about the document, like its title, scripts, and style sheets.

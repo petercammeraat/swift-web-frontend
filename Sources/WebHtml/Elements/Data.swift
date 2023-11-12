@@ -1,7 +1,7 @@
 //
 //  Data.swift
 //  WebHtml
-//  The 3-Clause BSD License
+//  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
 /// The `<data>` HTML element links a given piece of content with a machine-readable translation. If the content is time- or date-related, the `<time>` element must be used.
