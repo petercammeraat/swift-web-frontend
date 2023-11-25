@@ -1,9 +1,19 @@
 //
-//  HtmxReplaceUrl.swift
+//  Element+HxReplaceUrl.swift
 //  WebHtmx
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 //
+
+public extension Element {
+    /// The `hx-replace-url` attribute allows you to replace the current url of the browser location history.
+    ///
+    /// For more information, see [hx-replace-url docs](https://htmx.org/attributes/hx-replace-url/)
+    @discardableResult
+    func hxReplaceUrl(replaceUrl: HtmxReplaceUrl?, _ condition: Bool = true) -> Self {
+        attribute("hx-replace-url", replaceUrl?.value, condition)
+    }
+}
 
 public enum HtmxReplaceUrl {
     /// Replaces the fetched URL in the browser navigation bar.

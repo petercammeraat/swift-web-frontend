@@ -1,13 +1,20 @@
 //
-//  InputMode.swift
+//  Element+InputMode.swift
 //  WebHtml
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 //
 
-/// The `inputmode` global attribute is an enumerated attribute that hints at the type of data that might be entered by the user while editing the element or its contents. This allows a browser to display an appropriate virtual keyboard.
-///
-/// For more information, see [inputmode docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/inputmode)
+public extension Element {
+    /// The `inputmode` global attribute is an enumerated attribute that hints at the type of data that might be entered by the user while editing the element or its contents. This allows a browser to display an appropriate virtual keyboard.
+    ///
+    /// For more information, see [inputmode docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/inputmode)
+    @discardableResult
+    func inputMode(_ value: InputMode?, _ condition: Bool = true) -> Self {
+        attribute("inputmode", value?.rawValue, condition)
+    }
+}
+
 public enum InputMode: String {
     /// No virtual keyboard. For when the page implements its own keyboard input control.
     case none

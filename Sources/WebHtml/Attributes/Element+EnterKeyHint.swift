@@ -1,13 +1,20 @@
 //
-//  EnterKeyHint.swift
+//  Element+EnterKeyHint.swift
 //  WebHtml
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 //
 
-/// The `enterkeyhint` global attribute is an enumerated attribute defining what action label (or icon) to present for the enter key on virtual keyboards.
-///
-/// For more information, see [enterkeyhint docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/enterkeyhint)
+public extension Element {
+    /// The `enterkeyhint` global attribute is an enumerated attribute defining what action label (or icon) to present for the enter key on virtual keyboards.
+    ///
+    /// For more information, see [enterkeyhint docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/enterkeyhint)
+    @discardableResult
+    func enterKeyHint(_ value: EnterKeyHint?, _ condition: Bool = true) -> Self {
+        attribute("enterkeyhint", value?.rawValue, condition)
+    }
+}
+
 public enum EnterKeyHint: String {
     /// Typically inserting a new line.
     case enter

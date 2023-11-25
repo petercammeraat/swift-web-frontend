@@ -1,9 +1,19 @@
 //
-//  HtmxTarget.swift
+//  Element+HxTarget.swift
 //  WebHtmx
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 //
+
+public extension Element {
+    /// The `hx-target` attribute allows you to target a different element for swapping than the one issuing the AJAX request.
+    ///
+    /// For more information, see [hx-target docs](https://htmx.org/attributes/hx-target/)
+    @discardableResult
+    func hxTarget(target: HtmxTarget?, _ condition: Bool = true) -> Self {
+        attribute("hx-target", target?.value, condition)
+    }
+}
 
 public enum HtmxTarget {
     /// Which indicates that the element that the hx-target attribute is on is the target

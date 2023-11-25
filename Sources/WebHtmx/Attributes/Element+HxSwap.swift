@@ -1,9 +1,19 @@
 //
-//  HtmxSwap.swift
+//  Element+HxSwap.swift
 //  WebHtmx
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 //
+
+public extension Element {
+    /// The `hx-swap` attribute allows you to specify how the response will be swapped in relative to the target of an AJAX request.
+    ///
+    /// For more information, see [hx-swap docs](https://htmx.org/attributes/hx-swap/)
+    @discardableResult
+    func hxSwap(swap: HtmxSwap?, _ condition: Bool = true) -> Self {
+        attribute("hx-swap", swap?.rawValue, condition)
+    }
+}
 
 public enum HtmxSwap: String {
     /// Does not append content from response (out of band items will still be processed).

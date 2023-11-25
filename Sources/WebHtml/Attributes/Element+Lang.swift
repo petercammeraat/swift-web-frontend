@@ -1,14 +1,29 @@
 //
-//  Lang.swift
+//  Element+Lang.swift
 //  WebHtml
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 //
 
-/// The lang global attribute helps define the language of an element: the language that non-editable elements are written in, or the language that the editable elements should be written in by the user. 
-/// The attribute contains a single "language tag" in the format defined in RFC 5646: Tags for Identifying Languages (also known as BCP 47).
-///
-/// For more information, see [lang docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang)
+public extension Element {
+    /// The `lang` global attribute helps define the language of an element: the language that non-editable elements are written in, or the language that the editable elements should be written in by the user.
+    /// 
+    /// The attribute contains a single "language tag" in the format defined in RFC 5646: Tags for Identifying Languages (also known as BCP 47).
+    ///
+    /// For more information, see [lang docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang)
+    @discardableResult
+    func lang(_ value: Lang?, _ condition: Bool = true) -> Self {
+        attribute("lang", value?.rawValue, condition)
+    }
+
+    @discardableResult
+    func lang(_ language: Lang.Language?, _ country: Lang.Country? = nil, _ condition: Bool = true) -> Self {
+        guard let language = language else { return self }
+        let lang: Lang = .init(language, country)
+        return self.lang(lang, condition)
+    }
+}
+
 public struct Lang {
     let language: Language
     let country: Country?
@@ -461,20 +476,5 @@ public extension Lang {
         case ye
         case zm
         case zw
-    }
-}
-
-public extension Element {
-    @discardableResult
-    func lang(_ l: Lang?, _ condition: Bool = true) -> Self {
-        guard let l = l, condition else { return self }
-        return attribute("lang", l.rawValue)
-    }
-
-    @discardableResult
-    func lang(_ language: Lang.Language?, _ country: Lang.Country? = nil, _ condition: Bool = true) -> Self {
-        guard let language = language else { return self }
-        let lang: Lang = .init(language, country)
-        return self.lang(lang, condition)
     }
 }
