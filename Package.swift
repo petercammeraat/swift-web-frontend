@@ -6,17 +6,20 @@ let package = Package(
     name: "swift-web-frontend",
     products: [
         .library(name: "WebBase", targets: ["WebBase"]),
-        .library(name: "WebHtml", targets: ["WebHtml"]),
-        .library(name: "WebHtmx", targets: ["WebHtmx"]),
+        .library(name: "WebHTML", targets: ["WebHTML"]),
+        .library(name: "WebHTMX", targets: ["WebHTMX"]),
+        .library(name: "WebSVG", targets: ["WebSVG"]),
     ],
     targets: [
         .target(name: "WebBase"),
-        .target(name: "WebHtml", dependencies: [.target(name: "WebBase")]),
-        .target(name: "WebHtmx", dependencies: [.target(name: "WebHtml")]),
+        .target(name: "WebHTML", dependencies: [.target(name: "WebBase")]),
+        .target(name: "WebHTMX", dependencies: [.target(name: "WebHTML")]),
+        .target(name: "WebSVG"),
 
         // Tests
         .testTarget(name: "WebBaseTests", dependencies: ["WebBase"]),
-        .testTarget(name: "WebHtmlTests", dependencies: ["WebHtml"]),
-        .testTarget(name: "WebHtmxTests", dependencies: ["WebHtmx"]),
+        .testTarget(name: "WebHTMLTests", dependencies: ["WebHTML"]),
+        .testTarget(name: "WebHTMXTests", dependencies: ["WebHTMX"]),
+        .testTarget(name: "WebSVGTests", dependencies: ["WebSVG"]),
     ]
 )
