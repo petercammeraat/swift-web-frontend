@@ -5,6 +5,8 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
+
 public extension Element {
     /// The `hx-push-url` attribute allows you to push a URL into the browser location history.
     ///

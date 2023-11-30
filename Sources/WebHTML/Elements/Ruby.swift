@@ -4,6 +4,8 @@
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
+import WebBase
+
 /// The `<ruby>` HTML element represents small annotations that are rendered above, below, or next to base text, usually used for showing the pronunciation of East Asian characters.
 ///
 /// It can also be used for annotating other kinds of text, but this usage is less common.

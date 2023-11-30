@@ -4,6 +4,8 @@
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
+import WebBase
+
 /// The `<style>` HTML element contains style information for a document, or part of a document.
 ///
 /// It contains CSS, which is applied to the contents of the document containing the `<style>` element.

@@ -4,6 +4,8 @@
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
+import WebBase
+
 /// The `<time>` HTML element represents a specific period in time.
 ///
 /// It may include the datetime attribute to translate dates into machine-readable format, allowing for better search engine results or custom features such as reminders.

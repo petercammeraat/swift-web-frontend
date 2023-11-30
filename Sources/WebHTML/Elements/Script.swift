@@ -4,6 +4,8 @@
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
+import WebBase
+
 /// The `<script>` HTML element is used to embed executable code or data; this is typically used to embed or refer to JavaScript code.
 ///
 /// The `<script>` element can also be used with other languages, such as WebGL's GLSL shader programming language and JSON.

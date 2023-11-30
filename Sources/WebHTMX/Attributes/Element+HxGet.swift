@@ -5,6 +5,8 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
+
 public extension Element {
     /// The `hx-get` attribute will cause an element to issue a GET to the specified URL and swap the HTML into the DOM using a swap strategy:
     ///

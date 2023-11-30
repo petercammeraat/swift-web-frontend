@@ -4,6 +4,8 @@
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
+import WebBase
+
 /// The `<fieldset>` HTML element is used to group several controls as well as labels (`<label>`) within a web form.
 ///
 /// For more information, see [fieldset docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset)

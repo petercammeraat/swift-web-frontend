@@ -5,6 +5,8 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
+
 public extension Element {
     /// The `hx-history-elt` attribute allows you to specify the element that will be used to snapshot and restore page state during navigation.
     ///

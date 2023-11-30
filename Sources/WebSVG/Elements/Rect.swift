@@ -5,6 +5,8 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
+
 /// The `<rect>` element is a basic SVG shape that draws rectangles, defined by their position, width, and height. The rectangles may have their corners rounded.
 ///
 /// For more information, see [rect docs](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect)

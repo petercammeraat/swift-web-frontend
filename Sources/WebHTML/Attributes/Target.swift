@@ -5,7 +5,7 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
-/// Where to display the linked URL, as the name for a browsing context (a tab, window, or `<iframe>`).
+import WebBase/// Where to display the linked URL, as the name for a browsing context (a tab, window, or `<iframe>`).
 ///
 /// For more information, see [a docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#target)
 public enum Target: String {

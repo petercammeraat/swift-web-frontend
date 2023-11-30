@@ -4,6 +4,8 @@
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
+import WebBase
+
 /// The comment tag is used to insert comments in the source code.
 /// 
 /// `<!-- example comment -->`

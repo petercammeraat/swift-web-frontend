@@ -4,6 +4,8 @@
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
+import WebBase
+
 /// The `<colgroup>` HTML element defines a group of columns within a table.
 ///
 /// For more information, see [colgroup docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup)

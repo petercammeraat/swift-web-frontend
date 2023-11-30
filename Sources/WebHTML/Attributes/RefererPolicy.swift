@@ -5,7 +5,7 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
-/// The Referrer-Policy HTTP header controls how much referrer information (sent with the Referer header) should be included with requests. Aside from the HTTP header, you can set this policy in HTML.
+import WebBase/// The Referrer-Policy HTTP header controls how much referrer information (sent with the Referer header) should be included with requests. Aside from the HTTP header, you can set this policy in HTML.
 ///
 /// For more information, see [Referrer-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy)
 public enum RefererPolicy: String {

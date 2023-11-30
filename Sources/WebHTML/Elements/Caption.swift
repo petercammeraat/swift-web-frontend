@@ -4,6 +4,8 @@
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
+import WebBase
+
 /// The `<caption>` HTML element specifies the caption (or title) of a table.
 ///
 /// For more information, see [caption docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption)

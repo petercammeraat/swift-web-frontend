@@ -5,6 +5,8 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
+
 public extension Element {
     /// Find an existing class attribute and return the value as an array of strings or an empty array
     private var classArray: [String] {

@@ -4,6 +4,8 @@
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
+import WebBase
+
 /// The `<strong>` HTML element indicates that its contents have strong importance, seriousness, or urgency.
 ///
 /// Browsers typically render the contents in bold type.

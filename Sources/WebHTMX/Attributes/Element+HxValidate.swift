@@ -5,6 +5,8 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
+
 public extension Element {
     /// The hx-validate attribute will cause an element to validate itself by way of the HTML5 Validation API before it submits a request.
     ///

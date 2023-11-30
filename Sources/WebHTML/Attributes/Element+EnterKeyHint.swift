@@ -5,6 +5,7 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
 public extension Element {
     /// The `enterkeyhint` global attribute is an enumerated attribute defining what action label (or icon) to present for the enter key on virtual keyboards.
     ///

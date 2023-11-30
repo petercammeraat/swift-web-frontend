@@ -4,6 +4,8 @@
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
+import WebBase
+
 /// The `<col>` HTML element defines a column within a table and is used for defining common semantics on all common cells. It is generally found within a `<colgroup>` element.
 ///
 /// For more information, see [col docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col)

@@ -5,6 +5,8 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
+
 public extension Element {
     /// The `hx-boost` attribute allows you to “boost” normal anchors and form tags to use AJAX instead.
     ///

@@ -4,6 +4,8 @@
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
+import WebBase
+
 /// The `<iframe>` HTML element represents a nested browsing context, embedding another HTML page into the current one.
 ///
 /// For more information, see [iframe docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe)

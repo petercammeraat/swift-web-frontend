@@ -4,6 +4,8 @@
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
+import WebBase
+
 /// The `<head>` HTML element contains machine-readable information (metadata) about the document, like its title, scripts, and style sheets.
 ///
 /// **Note:** `<head>` primarily holds information for machine processing, not human-readability. For human-visible information, like top-level headings and listed authors, see the `<header>` element.

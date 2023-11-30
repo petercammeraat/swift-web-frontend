@@ -5,6 +5,8 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
+
 /// The SVG `<text>` element draws a graphics element consisting of text. It's possible to apply a gradient, pattern, clipping path, mask, or filter to `<text>`, like any other SVG graphics element.
 /// 
 /// For more information, see [text docs](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/Text)

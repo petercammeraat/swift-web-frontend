@@ -5,6 +5,8 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
+
 /// The `<path>` SVG element is the generic element to define a shape. All the basic shapes can be created with a path element.
 ///
 /// For more information, see [path docs](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/path)

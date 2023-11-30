@@ -5,6 +5,8 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
+
 public extension Element {
     /// The `autocapitalize` global attribute is an enumerated attribute that controls whether and how text input is automatically capitalized as it is entered/edited by the user.
     ///

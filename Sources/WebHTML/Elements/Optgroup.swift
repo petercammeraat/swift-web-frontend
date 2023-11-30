@@ -4,6 +4,8 @@
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
+import WebBase
+
 /// The `<optgroup>` HTML element creates a grouping of options within a `<select>` element.
 ///
 /// For more information, see [optgroup docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup)

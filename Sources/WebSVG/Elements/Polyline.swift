@@ -5,6 +5,8 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
+
 /// The `<polyline>` SVG element is an SVG basic shape that creates straight lines connecting several points.
 ///
 /// Typically a polyline is used to create open shapes as the last point doesn't have to be connected to the first point. For closed shapes see the `<polygon>` element.

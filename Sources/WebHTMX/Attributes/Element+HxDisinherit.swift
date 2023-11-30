@@ -5,6 +5,8 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
+
 public extension Element {
     /// The `hx-disinherit` attribute allows you to control this automatic attribute inheritance. 
     ///

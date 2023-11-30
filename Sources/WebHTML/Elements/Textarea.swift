@@ -4,6 +4,8 @@
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
+import WebBase
+
 /// The `<textarea>` HTML element represents a multi-line plain-text editing control.
 ///
 /// Useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.

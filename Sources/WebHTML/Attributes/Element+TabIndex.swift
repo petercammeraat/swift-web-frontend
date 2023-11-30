@@ -5,6 +5,7 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
 public extension Element {
     /// The `tabindex` global attribute allows developers to make HTML elements focusable, allow or prevent them from being sequentially focusable (usually with the Tab key, hence the name) and determine their relative ordering for sequential focus navigation.
     ///

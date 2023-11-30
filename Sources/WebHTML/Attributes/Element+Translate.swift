@@ -5,6 +5,7 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
 public extension Element {
     /// The `translate` global attribute is an enumerated attribute that is used to specify whether an element's translatable attribute values and its Text node children should be translated when the page is localized, or whether to leave them unchanged.
     ///

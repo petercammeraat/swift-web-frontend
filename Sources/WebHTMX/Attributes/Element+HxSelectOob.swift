@@ -5,6 +5,8 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
+
 public extension Element {
     /// The `hx-select-oob` attribute allows you to select content from a response to be swapped in via an out-of-band swap.
     ///

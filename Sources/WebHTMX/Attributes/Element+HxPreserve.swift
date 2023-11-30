@@ -5,6 +5,8 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
+
 public extension Element {
     /// The hx-preserve attribute allows you to keep an element unchanged during HTML replacement.
     ///

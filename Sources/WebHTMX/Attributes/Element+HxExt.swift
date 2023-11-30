@@ -5,6 +5,8 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
+
 public extension Element {
     /// The hx-ext attribute enables an htmx extension for an element and all its children.
     ///

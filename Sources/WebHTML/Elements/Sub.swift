@@ -4,6 +4,8 @@
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
+import WebBase
+
 /// The `<sub>` HTML element specifies inline text which should be displayed as subscript for solely typographical reasons.
 ///
 /// Subscripts are typically rendered with a lowered baseline using smaller text.

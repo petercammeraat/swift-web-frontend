@@ -5,6 +5,8 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
+
 public extension Element {
     /// The `autofocus` global attribute is a Boolean attribute indicating that an element should be focused on page load, or when the `<dialog>` that it is part of is displayed.
     ///

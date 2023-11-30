@@ -5,6 +5,7 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
 public extension Element {
     /// The `hidden` global attribute is an enumerated attribute indicating that the browser should not render the contents of the element.
     ///

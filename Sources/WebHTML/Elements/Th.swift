@@ -4,6 +4,8 @@
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
+import WebBase
+
 /// The `<th>` HTML element defines a cell as the header of a group of table cells. The exact nature of this group is defined by the scope and headers attributes.
 ///
 /// For more information, see [th docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th)

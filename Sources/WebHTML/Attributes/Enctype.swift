@@ -5,7 +5,7 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
-/// If the value of the method attribute is post, enctype is the MIME type of the form submission.
+import WebBase/// If the value of the method attribute is post, enctype is the MIME type of the form submission.
 ///
 /// For more information, see [enctype docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form#enctype)
 public enum Enctype: String {

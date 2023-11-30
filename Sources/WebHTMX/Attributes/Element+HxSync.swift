@@ -5,6 +5,8 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
+
 public extension Element {
     /// The `hx-sync` attribute allows you to synchronize AJAX requests between multiple elements.
     ///

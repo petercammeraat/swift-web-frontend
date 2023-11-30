@@ -5,6 +5,8 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
+
 public extension Element {
     /// The `hx-disabled-elt` attribute allows you to specify elements that will have the disabled attribute added to them for the duration of the request.
     ///

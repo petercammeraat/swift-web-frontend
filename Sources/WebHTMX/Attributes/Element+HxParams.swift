@@ -5,6 +5,8 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
+
 public extension Element {
     // TODO: use num
     /// The `hx-params` attribute allows you to filter the parameters that will be submitted with an AJAX request.

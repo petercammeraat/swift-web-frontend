@@ -5,6 +5,7 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
 public extension Element {
     /// The `lang` global attribute helps define the language of an element: the language that non-editable elements are written in, or the language that the editable elements should be written in by the user.
     /// 

@@ -5,6 +5,8 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
+
 /// The `<polygon>` element defines a closed shape consisting of a set of connected straight line segments. The last point is connected to the first point.
 ///
 /// For more information, see [polygon docs](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/polygon)

@@ -4,6 +4,8 @@
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
+import WebBase
+
 /// The <img> HTML element embeds an image into the document.
 ///
 /// The `src` attribute is **required**, and contains the path to the image you want to embed.

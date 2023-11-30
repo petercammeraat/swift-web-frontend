@@ -5,6 +5,8 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
+
 public extension Element {
     /// The `hx-target` attribute allows you to target a different element for swapping than the one issuing the AJAX request.
     ///

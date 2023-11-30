@@ -5,6 +5,8 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
+
 public extension Element {
     /// The `accesskey` global attribute provides a hint for generating a keyboard shortcut for the current element.
     ///

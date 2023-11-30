@@ -5,6 +5,8 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
+
 /// The `<ellipse>` element is an SVG basic shape, used to create ellipses based on a center coordinate, and both their x and y radius.
 ///
 /// For more information, see [ellipse docs](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/ellipse)

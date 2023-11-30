@@ -4,6 +4,8 @@
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
+import WebBase
+
 /// The `<form>` HTML element represents a document section containing interactive controls for submitting information.
 ///
 /// For more information, see [form docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)

@@ -5,6 +5,8 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
+
 public extension Element {
     /// The `hx-prompt` attribute allows you to show a prompt before issuing a request. The value of the prompt will be included in the request in the HX-Prompt header.
     ///

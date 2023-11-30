@@ -5,6 +5,8 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
+
 public extension Element {
     // TODO: use enum
     /// The `hx-request` attribute allows you to configure various aspects of the request via the following attributes.

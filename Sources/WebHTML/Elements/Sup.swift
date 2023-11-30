@@ -4,6 +4,8 @@
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
+import WebBase
+
 /// The `<sup>` HTML element specifies inline text which is to be displayed as superscript for solely typographical reasons.
 ///
 /// Superscripts are usually rendered with a raised baseline using smaller text.

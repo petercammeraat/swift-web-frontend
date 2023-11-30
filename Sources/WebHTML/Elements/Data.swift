@@ -4,6 +4,8 @@
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
+import WebBase
+
 /// The `<data>` HTML element links a given piece of content with a machine-readable translation. If the content is time- or date-related, the `<time>` element must be used.
 ///
 /// For more information, see [data docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/data)

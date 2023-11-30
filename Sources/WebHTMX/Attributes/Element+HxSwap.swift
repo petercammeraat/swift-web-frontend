@@ -5,6 +5,8 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
+
 public extension Element {
     /// The `hx-swap` attribute allows you to specify how the response will be swapped in relative to the target of an AJAX request.
     ///

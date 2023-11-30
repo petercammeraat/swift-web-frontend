@@ -4,6 +4,8 @@
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
+import WebBase
+
 /// The `<map>` HTML element is used with `<area>` elements to define an image map (a clickable link area).
 ///
 /// For more information, see [map docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/map)

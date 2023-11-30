@@ -5,6 +5,7 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
 public extension Element {
     /// The `id` global attribute defines an identifier (ID) which must be unique in the whole document.
     ///

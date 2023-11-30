@@ -4,6 +4,8 @@
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
+import WebBase
+
 /// The `<select>` HTML element represents a control that provides a menu of options.
 ///
 /// For more information, see [select docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)

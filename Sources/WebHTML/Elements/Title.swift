@@ -4,6 +4,8 @@
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
+import WebBase
+
 /// The `<title>` HTML element defines the document's title that is shown in a browser's title bar or a page's tab.
 ///
 /// It only contains text; tags within the element are ignored.

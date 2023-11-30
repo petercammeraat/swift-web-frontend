@@ -4,6 +4,8 @@
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
+import WebBase
+
 /// The `<meter>` HTML element represents either a scalar value within a known range or a fractional value.
 ///
 /// For more information, see [meter docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter)

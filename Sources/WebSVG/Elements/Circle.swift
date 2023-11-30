@@ -5,6 +5,8 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
+
 /// The `<circle>` SVG element is an SVG basic shape, used to draw circles based on a center point and a radius.
 ///
 /// For more information, see [circle docs](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/circle)

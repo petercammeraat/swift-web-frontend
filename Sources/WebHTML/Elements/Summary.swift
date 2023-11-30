@@ -4,6 +4,8 @@
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
+import WebBase
+
 /// The `<summary>` HTML element specifies a summary, caption, or legend for a `<details>` element's disclosure box.
 ///
 /// Clicking the `<summary>` element toggles the state of the parent `<details>` element open and closed.

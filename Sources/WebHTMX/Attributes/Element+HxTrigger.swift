@@ -5,6 +5,8 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
+
 public extension Element {
     // TODO: this could be an enum, maybe?
     /// The `hx-trigger` attribute allows you to specify what triggers an AJAX request.

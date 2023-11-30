@@ -5,6 +5,8 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
+
 public extension Element {
     /// The `hx-post` attribute will cause an element to issue a POST to the specified URL and swap the HTML into the DOM using a swap strategy.
     ///

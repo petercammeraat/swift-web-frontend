@@ -5,6 +5,8 @@
 //  Copyright 2023 Peter Cammeraat
 //
 
+import WebBase
+
 public extension Element {
     // TODO: use enum
     /// The `hx-include` attribute allows you to include additional element values in an AJAX request.

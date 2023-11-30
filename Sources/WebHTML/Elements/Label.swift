@@ -4,6 +4,8 @@
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
+import WebBase
+
 /// The `<label>` HTML element represents a caption for an item in a user interface.
 ///
 /// For more information, see [label docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label)

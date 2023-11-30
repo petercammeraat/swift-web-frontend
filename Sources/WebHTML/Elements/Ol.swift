@@ -4,6 +4,8 @@
 //  BSD 3-Clause License
 //  Copyright 2023 Peter Cammeraat
 
+import WebBase
+
 /// The `<ol>` HTML element represents an ordered list of items — typically rendered as a numbered list.
 ///
 /// For more information, see [ol docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
