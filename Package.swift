@@ -14,7 +14,7 @@ let package = Package(
         .target(name: "WebBase"),
         .target(name: "WebHTML", dependencies: [.target(name: "WebBase")]),
         .target(name: "WebHTMX", dependencies: [.target(name: "WebHTML")]),
-        .target(name: "WebSVG"),
+        .target(name: "WebSVG", dependencies: [.target(name: "WebBase")]),
 
         // Tests
         .testTarget(name: "WebBaseTests", dependencies: ["WebBase"]),
