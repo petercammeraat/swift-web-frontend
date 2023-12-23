@@ -4,8 +4,7 @@ This document specifies the security process for this project.
 
 ## Versions
 
-I will address security vulnerabilities in all {project_name} {version}
-versions.
+I will address security vulnerabilities in all swift-web-frontend 1.x.x versions.
 
 
 ## Disclosures
